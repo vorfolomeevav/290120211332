@@ -1,0 +1,64 @@
+.comments {
+  &__controls {
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 16px;
+    line-height: 16px;
+
+    @media (max-width: 420px) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &__title {
+    font-weight: bold;
+
+    @media (max-width: 420px) {
+      display: flex;
+    }
+  }
+
+  &__all-link {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #005DA1;
+  }
+
+  &__reactions {
+    display: flex;
+
+    @media (max-width: 420px) {
+      margin-top: 10px;
+    }
+  }
+
+  &__likes {
+    display: flex;
+    align-items: center;
+  }
+
+  &__like-icon {
+    display: inline;
+    margin-right: 2px;
+    width: 16px;
+    height: 14px;
+  }
+
+  &__messages {
+    display: flex;
+    align-items: center;
+  }
+
+  &__comment-icon {
+    margin: 0 3px 0 16px;
+    width: 16px;
+    height: 16px;
+  }
+
+  &__comment {
+    margin-top: 16px;
+  }
+
+}

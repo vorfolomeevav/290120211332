@@ -1,0 +1,70 @@
+.services {
+  display: flex;
+  flex-direction: column;
+
+
+  &__title {
+    width: 63px;
+    align-self: flex-end;
+
+  }
+  &__block {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 0 15px;
+    width: 317px;
+
+    border-top: 1px solid #DADADA;
+    border-bottom: 1px solid #DADADA;
+
+  }
+  &__progress-bar-line {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__progress-bar-progress {
+    display: inline-block;
+    height: 24px;
+    margin-top: 1px;
+
+    border: 1px transparent;
+    border-radius: 0px 3px 3px 0px;
+  }
+
+  &__progress-bar-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 6px;
+
+    font-size: 13px;
+    line-height: 26px;
+  }
+
+  &__progress-bar-value {
+    margin-right: 38px;
+    padding-left: 10px;
+
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  &__total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 9px;
+
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  &__amount {
+    margin-right: 38px;
+    line-height: 15px;
+  }
+}

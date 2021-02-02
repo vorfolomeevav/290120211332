@@ -1,0 +1,44 @@
+.comment {
+  &__header{
+    line-height: 19px;
+  }
+
+  &__name {
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  &__date {
+    margin-left: 10px;
+    font-weight: normal;
+    font-size: 11px;
+    color: #808080;
+  }
+
+  &__cloud {
+    position: relative;
+    margin-top: 11px;
+    padding: 10px;
+    border: 1px solid#C4CBCF;
+    background-color: #F2FBFF;
+    box-shadow: 0px 4px 10px rgba(128, 128, 128, 0.1);
+
+     &::before, &::after {
+      content: '';
+      position: absolute;
+      left: 25px;
+      top: -10px;
+      border: 10px solid transparent;
+      border-left: 10px solid #F2FBFF;
+
+     }
+     &::after {
+      border: 12px solid transparent;
+      border-left: 12px solid #C4CBCF;
+      top: -12px;
+      left: 24px;
+      z-index: -1;
+     }
+   }
+
+}

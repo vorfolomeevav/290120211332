@@ -1,0 +1,27 @@
+@import './container.scss';
+
+.user-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 489px;
+  max-height: 900px;
+
+  &__person-info {
+    margin: 14px 5px 0 17px;
+  }
+
+  &__services {
+    margin-right: 21px;
+    margin-top: -13px;
+    align-self: flex-end;
+  }
+
+  &__comments {
+    margin: 20px 20px 0;
+  }
+
+  &__form {
+    margin-top: 22px;
+  }
+}

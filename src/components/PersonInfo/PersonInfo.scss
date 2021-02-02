@@ -1,0 +1,41 @@
+.person-info {
+position: relative;
+max-width: 467px;
+
+  &__name {
+    margin: 7px 0 0 134px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  &__profession {
+    margin: 2px 0 0 134px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #808080;
+  }
+
+  &__tagline-wrapper {
+    margin: 5px 14px 16px 89px;
+    padding: 10px 0 11px;
+    padding-left: 45px;
+
+    background: #FFFBC8;
+    border: 1px solid #DADADA;
+    border-radius: 5px;
+  }
+
+  &__photo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+
+    @media (max-width: 490px) {
+      top: 20px;
+      left: 24px;
+      width: 100px;
+     }
+  }
+}
